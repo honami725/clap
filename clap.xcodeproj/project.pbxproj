@@ -14,6 +14,8 @@
 		227491B71C6B1A13006F0A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227491B51C6B1A13006F0A29 /* LaunchScreen.storyboard */; };
 		227491C21C6B1A13006F0A29 /* clapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227491C11C6B1A13006F0A29 /* clapTests.swift */; };
 		227491CD1C6B1A13006F0A29 /* clapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227491CC1C6B1A13006F0A29 /* clapUITests.swift */; };
+		227491DC1C6B1A72006F0A29 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 227491DA1C6B1A72006F0A29 /* clap.wav */; };
+		227491DD1C6B1A72006F0A29 /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 227491DB1C6B1A72006F0A29 /* clap-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		227491C81C6B1A13006F0A29 /* clapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		227491CC1C6B1A13006F0A29 /* clapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clapUITests.swift; sourceTree = "<group>"; };
 		227491CE1C6B1A13006F0A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227491DA1C6B1A72006F0A29 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		227491DB1C6B1A72006F0A29 /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		227491AB1C6B1A13006F0A29 /* clap */ = {
 			isa = PBXGroup;
 			children = (
+				227491DA1C6B1A72006F0A29 /* clap.wav */,
+				227491DB1C6B1A72006F0A29 /* clap-button.png */,
 				227491AC1C6B1A13006F0A29 /* AppDelegate.swift */,
 				227491AE1C6B1A13006F0A29 /* ViewController.swift */,
 				227491B01C6B1A13006F0A29 /* Main.storyboard */,
@@ -232,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227491DC1C6B1A72006F0A29 /* clap.wav in Resources */,
 				227491B71C6B1A13006F0A29 /* LaunchScreen.storyboard in Resources */,
 				227491B41C6B1A13006F0A29 /* Assets.xcassets in Resources */,
+				227491DD1C6B1A72006F0A29 /* clap-button.png in Resources */,
 				227491B21C6B1A13006F0A29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
